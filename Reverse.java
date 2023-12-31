@@ -11,6 +11,6 @@ public class Reverse {
 			str2 += str1.charAt (i);
 		}
 		System.out.println (str2);
-		System.out.println ("The middle character is " + str1.charAt (n/2));
+		System.out.println ("The middle character is " + str2.charAt (n/2));
 	}
 }

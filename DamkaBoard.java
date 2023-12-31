@@ -6,11 +6,15 @@ public class DamkaBoard {
 		int n = Integer.parseInt(args[0]);
 		String str1 = "";
 		for (int i=0; i<n; i++) {
+			if (i == n-1){
+			str1 += "*";}
+			else {
 			str1 += "* ";
+			}
 		}
 		for(int j=0; j<n; j++) {
 			if (j%2==0)
-			System.out.println (str1);
+			System.out.println (str1 + " ");
 			else 
 			System.out.println ( " " + str1);
 		}
