@@ -28,7 +28,7 @@ public class OneOfEachStats {
 			while ( (isboy == false) || (isgirl == false)){ 
 				cnt++;
 				sum++;
-				gender = Math.random ();
+				gender = generator.nextDouble();
 			if ( gender < 0.5){
 				str1 += "g ";
 				isgirl = true;
